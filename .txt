@@ -1,4 +1,6 @@
-nest cli
+npm install -g pnpm
+
+pnpm add -g @nestjs/cli
 prisma
 docker run --name Erordner -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 CREATE USER newuser WITH PASSWORD 'newpassword';
