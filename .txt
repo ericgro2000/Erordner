@@ -1,0 +1,7 @@
+nest cli
+prisma
+docker run --name Erordner -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+CREATE USER newuser WITH PASSWORD 'newpassword';
+CREATE DATABASE Erordner;
+GRANT ALL PRIVILEGES ON DATABASE Erordner TO newuser;
+
